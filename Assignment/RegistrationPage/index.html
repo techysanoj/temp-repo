@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>AAJ Swift</h1>
+            <nav>
+                <a href="#">Company</a>
+                <a href="#">Calculate Shipping Cost</a>
+                <a href="#">Blogs</a>
+                <a href="#">Contact Us</a>
+                <a href="#" class="track-shipment">Track Shipment</a>
+                <a href="#" class="login">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <h2>More Than Just Logistics: <br> Your Growth Partner</h2>
+            <p>Our seamless logistics solutions empower brands to grow faster and smarter. Let's move your business forward.</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <p>Get top-rated transporters at unbeatable prices</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <p>95% Guaranteed on-time Delivery</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Live Shipment Tracking and timely updates</p>
+                </div>
+            </div>
+            <div class="partners">
+                <h3>Partner with the Best</h3>
+                <div class="partner-logos">
+                    <img src="https://via.placeholder.com/100x50" alt="Partner Logo">
+                    <img src="https://via.placeholder.com/100x50" alt="Partner Logo">
+                    <img src="https://via.placeholder.com/100x50" alt="Partner Logo">
+                    <img src="https://via.placeholder.com/100x50" alt="Partner Logo">
+                    <img src="https://via.placeholder.com/100x50" alt="Partner Logo">
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Section (Registration Form) -->
+        <div class="right-section">
+            <h3>Register</h3>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="email">Email Id</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile No.</label>
+                    <input type="tel" id="mobile" placeholder="Enter your mobile number" required>
+                </div>
+                <div class="radio-group">
+                    <label>Are you a business which needs GST invoice?</label>
+                    <div>
+                        <input type="radio" id="gstYes" name="gst" value="yes" required>
+                        <label for="gstYes">Yes</label>
+                        <input type="radio" id="gstNo" name="gst" value="no" required>
+                        <label for="gstNo">No</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="companyName">Company Name</label>
+                    <input type="text" id="companyName" placeholder="Enter company name" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Company Address</label>
+                    <input type="text" id="address" placeholder="Enter company address" required>
+                </div>
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" placeholder="Enter state" required>
+                </div>
+                <div class="form-group">
+                    <label for="pincode">Pincode</label>
+                    <input type="text" id="pincode" placeholder="Enter pincode" required>
+                </div>
+                <div class="form-group">
+                    <label for="gstNumber">GST Number</label>
+                    <input type="text" id="gstNumber" placeholder="Enter GST number">
+                </div>
+                <button type="submit" class="register-button">Register</button>
+                <p class="terms">By continuing you agree to the <a href="#">Terms & Conditions</a></p>
+            </form>
+        </div>
+    </div>
+     <!-- New Section: Transforming Logistics -->
+     <div class="logistics-section">
+        <h2>Transforming Logistics, Scaling Businesses</h2>
+        <p>Simplifying transportation so you can focus on growing your business.</p>
+        
+        <div class="logistics-cards">
+            <div class="card">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Pan-India PTL Transportation</h3>
+                <p>Guaranteed on-time delivery across 28,000+ pin codes with minimal ODA.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-network-wired"></i>
+                <h3>Wide Transporter Network</h3>
+                <p>Choose from 10+ transporters to ensure the best rates for your shipments.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-hand-holding-usd"></i>
+                <h3>Money-Back Guarantee</h3>
+                <p>Promised on-time delivery with a money-back guarantee for delays.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-truck-loading"></i>
+                <h3>Real-Time Tracking</h3>
+                <p>Full visibility of all your shipments from pickup to delivery.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-file-alt"></i>
+                <h3>Digital POD Access</h3>
+                <p>Seamless access to PODs anytime, eliminating manual processes.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>In-Transit Insurance</h3>
+                <p>Optional insurance coverage to protect your goods during transit.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-headset"></i>
+                <h3>Fast Customer Support</h3>
+                <p>Reliable customer service to resolve queries and ensure smooth operations.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-cogs"></i>
+                <h3>Access to TMS</h3>
+                <p>Get full access to our Transport Management System (TMS) to manage bookings, track shipments, and gain real-time visibility on a single platform.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Section: Transporter -->
+    <div class="transporter-section">
+        <h2>Is Your Business Held Hostage by a Single Transporter?</h2>
+        <p>With our wide range of transporter network, you gain the flexibility to switch and save on every shipment.</p>
+        <button class="signup-btn">Sign Up Now</button>
+        <div class="transporter-logos">
+            <img src="https://via.placeholder.com/100" alt="VRL">
+            <img src="https://via.placeholder.com/100" alt="Delhivery">
+            <img src="https://via.placeholder.com/100" alt="Blue Dart">
+            <img src="https://via.placeholder.com/100" alt="Amazon Shipping">
+            <img src="https://via.placeholder.com/100" alt="Metropolis">
+            <img src="https://via.placeholder.com/100" alt="Gati">
+        </div>
+    </div>
+
+    <!-- New Section: Testimonials -->
+    <div class="testimonials-section">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial-slider">
+            <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p>"It was a tough time when they started operation... But, the team of AAJ enterprises has been focused on their duties since the 1st day."</p>
+                    <div class="testimonial-info">
+                        <img src="./images/client-1.png" alt="Client Image">
+                        <div>
+                            <h3>Jaspreet Singh</h3>
+                            <img src="./images/client-1-logo.webp">
+                            <p>Tynor Orthotics Pvt. Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"AAJ and their employees were very attentive to our needs even during times of minimal notice... We won't hesitate to avail services of AAJ if required."</p>
+                    <div class="testimonial-info">
+                        <img src="./images/client-1.png" alt="Client Image">
+                        <div>
+                            <h3>Jaspreet Singh</h3>
+                            <img src="./images/client-1-logo.webp">
+                            <p>Pearson Education Services Pvt. Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"We have processed more than one million units from AAJ warehouse... This too in a calendar month with 3 less working days."</p>
+                    <div class="testimonial-info">
+                        <img src="./images/client-1.png" alt="Client Image">
+                        <div>
+                            <h3>Jaspreet Singh</h3>
+                            <img src="./images/client-1-logo.webp">
+                            <p>Company XYZ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
